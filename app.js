@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 
 // Paste your project's public URL and anon/publishable key here. Never use a service_role key in the browser.
-const SUPABASE_URL = 'https://lfkllumshwfwiskjwpiu.supabase.co/rest/v1/';
+const SUPABASE_URL = 'https://lfkllumshwfwiskjwpiu.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_ioqfeYmLz2AjaQeuTEnjXQ_K45veVFU';
 const configured = SUPABASE_URL.startsWith('https://') && !SUPABASE_URL.includes('YOUR_') && !SUPABASE_ANON_KEY.includes('YOUR_');
 const $ = (id) => document.getElementById(id);
